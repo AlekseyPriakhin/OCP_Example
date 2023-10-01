@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            //"program": "${workspaceFolder}/OCP_Example/bin/Debug/net6.0/OCP_Example.dll",
+            "program": "${workspaceFolder}/Without_OCP/bin/Debug/net6.0/Without_OCP.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Without_OCP",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}
