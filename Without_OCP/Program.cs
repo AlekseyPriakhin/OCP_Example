@@ -2,15 +2,10 @@
 
 
 
-var hero = new Ashe();
 
-Player.SetHero(hero);
+var spaceport = new Spaceport();
 
-Player.UseAbility();
+var builder = new CruiserBuilder();
 
-
-
-Console.WriteLine("Hello, World! Without");
-
-
+spaceport.Build(builder);
 
